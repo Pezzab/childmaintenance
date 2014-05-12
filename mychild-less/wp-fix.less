@@ -1,0 +1,73 @@
+
+// Makes sure form labels move above input boxes
+label {
+	display: block;
+}
+
+// Layout images in WordPress (align-left etc styles)
+img {
+	.img-responsive;
+	clear: both;
+}
+
+// while we're logged in make sure the .menu-primary is positioned right
+.admin-bar .menu-primary {
+	margin-top: 32px;
+}
+
+// neatly tuck under .menu-primary
+.header-wrap {
+	margin-top: 50px;
+}
+
+// image alignment rules
+.thumbnail {
+	margin-bottom: 0;
+}
+
+.alignleft {
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.thumbnail.excerpt {
+	.alignleft;
+	border: none;
+}
+
+.alignright {
+		float: right;
+		padding-left: 10px;
+		padding-bottom: 10px;
+}
+
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+// content rules
+
+.entry-content {
+	overflow: hidden;
+
+	.thumbnail.excerpt, .alignleft, .alignright, .aligncenter { padding-top: 4px; }
+}
+
+.entry-meta {
+	padding-bottom: 20px;
+}
+
+.widget ul {
+	padding-left: 0;
+
+	li {
+	list-style-type: none;
+	
+		ul{
+			padding-left: 10px;
+		}
+	}
+}
