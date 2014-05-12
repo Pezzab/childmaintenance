@@ -5929,7 +5929,6 @@ img {
 .entry-content {
   overflow: hidden;
 }
-.entry-content .thumbnail.excerpt,
 .entry-content .alignleft,
 .entry-content .alignright,
 .entry-content .aligncenter {
@@ -5938,12 +5937,50 @@ img {
 .entry-meta {
   padding-bottom: 20px;
 }
-.widget ul {
-  padding-left: 0;
+#commentform textarea {
+  width: 100%;
 }
-.widget ul li {
-  list-style-type: none;
+#commentform textarea,
+#commentform input#email,
+#commentform input#url,
+#commentform input#author,
+#commentform input#comment {
+  width: 100%;
 }
-.widget ul li ul {
-  padding-left: 10px;
+#commentform textarea,
+input#search-texthybrid-search {
+  width: 100%;
+}
+#commentform textarea,
+#commentform input#url,
+#commentform input#author,
+#commentform input#email,
+input#search-texthybrid-search {
+  border-color: #D3D3D3;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 5px 4px 5px 0 #E9E9E9 inset;
+  display: block;
+  padding: 7px;
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
 }
