@@ -1,5 +1,16 @@
-<h1>Child Maintenance</h1>
+<h1>Parental Guidance</h1>
 
-<h2>A custom child starter theme</h2>
+<h2>A custom WordPress parent theme framework</h2>
 
-<p>Child theme for <a href="https://github.com/Pezzab/parentalguidance">Parental Guidance</a> - a Bootstrap and Hybrid based DIY theme framework</p>
+<p><strong>Parent theme that works in conjunction with <a href="https://github.com/Pezzab/childmaintenance">Child Maintenance</a> - a Bootstrap and Hybrid based DIY theme framework</strong></p>
+
+<h2>Instructions</h2>
+
+<ol>
+<li>Download <a href="https://github.com/Pezzab/childmaintenance">Child Maintenance</a> and do a search and replace against <code>childmaintenance</code> and <code>Child Maintenance</code> to insert your own theme name (don&rsquo;t forget to change the folder name)</li>
+<li>Install <a href="https://github.com/Pezzab/parentalguidance">Parental Guidance</a> and your newly edited child theme in <code>/wp-content/themes</code> and activate your child theme</li>
+<li>Do all your Bootstrap editing using the files in <code>/mychild-less</code> or do your own thing. Import and compile your LESS files in <code>style.less</code> which will output to style.css</li>
+<li>Use <code>Gruntfile.js</code> to handle and concatenate all your js scripts as required</li>
+<li>RE template files: the idea is to avoid having to mess about with your site structure as much as possible. If you need to customise content just alter <code>content.php</code>, <code>content-page.php</code> etc. or create your own custom version (e.g. for custom post types) and an if statement or two. Ideally you only need to play around with content loops. Creating a custom template layout is for more complex needs.</li>
+</ol>
+
