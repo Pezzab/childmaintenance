@@ -17,6 +17,6 @@ For styling the theme offers three possibilities:
 
 * Regular 2 column centred
 * 3 column centred
-* Full width single column layouts (main content still centred but you have the option to style right across the screen)
+* Full width single column (main content still centred but you have the option to style posts individually right across the screen)
 
 ![Parental Guidance/Child Maintenance layout examples](layout-diagram.gif) 
