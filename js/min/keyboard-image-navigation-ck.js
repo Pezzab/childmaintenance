@@ -1,1 +1,0 @@
-jQuery(document).ready(function(t){t(document).keydown(function(n){var a=!1;37===n.which?a=t(".nav-previous a").attr("href"):39===n.which&&(a=t(".entry-attachment a").attr("href")),a&&!t("textarea, input").is(":focus")&&(window.location=a)})});

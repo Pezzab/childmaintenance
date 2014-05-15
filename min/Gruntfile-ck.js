@@ -1,1 +1,0 @@
-module.exports=function(s){s.initConfig({pkg:s.file.readJSON("package.json"),concat:{dist:{src:["js/html5shiv.js","js/respond.min.js","js/bootstrap.js"],dest:"js/concat.js"}},less:{development:{options:{paths:[""]},files:{"style.css":"style.less"}}}}),s.loadNpmTasks("grunt-contrib-concat"),s.loadNpmTasks("grunt-contrib-less"),s.registerTask("default",["concat"])};
