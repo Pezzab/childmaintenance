@@ -1,7 +1,7 @@
 # Child Maintenance
 ## A custom WordPress child theme
 
-**Child theme that works in conjunction with [Parental Guidance](https://github.com/Pezzab/childmaintenance) - a Bootstrap and Hybrid based DIY theme framework**
+**Child theme that works in conjunction with [Parental Guidance](https://github.com/Pezzab/parentalguidance) - a Bootstrap and Hybrid based DIY theme framework**
 
 ## Instructions
 
